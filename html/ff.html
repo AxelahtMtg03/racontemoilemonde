@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le séjour</title>
+    <link rel="stylesheet" href="/css/ff.css">
+    <link rel="shortcut icon" href="/ressource/android-chrome-512x512.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="/index.html" class="logo">Raconte moi le monde !</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="/html/sej.html">Vidéo</a></li>
+            <li><a href="/html/pp.html">À propo de nous</a></li>
+            <li><a href="/html/ff.html">Le séjour</a></li>
+        </ul>
+    </header>
+    <br><br><br><br>
+    <button style="width: 50px;float:inline-end" onclick="topFunction()" id="myBtn" title="Go to top">
+        <p style="size: 100px;">🔼</p>
+    </button>
+    <div class="container">
+        <div class="circle0"></div>
+        <h1>Visite des vaiseaux des sciences</h1>
+        <p>L'après midi du premier jour, nous avons visité les vaisseaux des sciences. Dans le premier vaisseau nous
+            avons
+            fait des escapes games en équipe super amusants. Pour le deuxième vaisseau nous avons fait une visite
+            guidée très intéressante sur le nickel et la biodiversité Néo-Calédonienne.
+        </p>
+
+    </div>
+    <br>
+    <div class="container">
+        <div class="circle1"></div>
+        <h1>Visite de la CPS</h1>
+        <p>Grace au concours que nous avons gagné, la CPS nous a accueilli dans ses locaux afin de nous
+            expliquer ses métiers et leurs parcours. Nous avons pu avoir un échange avec le chef du bureau de l'Union
+            Européenne pour les pays et territoires d'Outremer du Pacifique, Pierre Henri Helleputte.
+
+        </p>
+        <br>
+    </div>
+    <br>
+    <div class="container">
+        <div class="circle5"></div>
+        <h1>Escape game au musée maritime</h1>
+        <p>Après une peite visite au musée maritime, un escape game nous a été proposé. Bravo à Niels, Lou, Tiaré,
+            Marie-Den et Valentine qui ont renportés cet escape game haut la main.
+        </p>
+        <br>
+    </div>
+
+    <br>
+    <div class="container">
+        <div class="circle7"></div>
+        <h1>Musée numérique au MK2</h1>
+        <p>Le samedi matin nous sommes allé au cinéma MK2 (Dumbéa) pour voir le film Tomboy. Nous sommes ensuite allés au musée
+            numérique pour voir des oeuvres d'art.
+        </p>
+        <br>
+    </div>
+    <br>
+    <div class="container">
+        <div class="circle8"></div>
+        <h1>Rencontre avec des écrivains Calédoniens</h1>
+        <p>Ce jour là nous avons rencontré des écrivains, auteurs, éditeurs et illustrateurs Calédoniens qui sont venus nous
+            parler de leur métier et de leur parcours.
+        </p>
+        <br>
+    </div>
+
+    <script>// Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>

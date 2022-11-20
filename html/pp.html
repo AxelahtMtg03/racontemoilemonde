@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>À propo de nous</title>
+  <link rel="stylesheet" href="/css/pp.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="/ressource/android-chrome-512x512.png" type="image/x-icon">
+</head>
+
+<body>
+  <header class="header">
+    <a href="/index.html" class="logo">Raconte moi le monde !</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="/html/sej.html">Vidéo</a></li>
+      <li><a href="/html/pp.html">À propo de nous</a></li>
+      <li><a href="/html/ff.html">Le séjour</a></li>
+    </ul>
+  </header>
+  <br>
+  <br><br><br><br>
+  <button style="width: 50px;float:inline-end;" onclick="topFunction()" id="myBtn" title="Go to top">
+    <p style="size: 100px;">🔼</p>
+  </button>
+  <div class="card">
+    <img src="/ressource/louis.jpg" alt="John" style="width:100%">
+    <h1>Louis Logez</h1>
+    <hr>
+    <h1>Citation</h1>
+    <p class="title">"Regarder plus loin, pour trouver meilleur"</p>
+    <p>Lycée Général Lapérouse</p>
+    <div style="margin: 24px 0;">
+      <a target="_blank" href="https://www.instagram.com/exotic_zouil/"><i class="fa fa-instagram"></i></a>
+
+    </div>
+    <p style="color: white;padding: 8px;font-size: 18px;background-color: #000;">Je me présente : Louis Logez 16 ans. Je
+      suis très grand. On me dit souvent que je suis un terminal mais je ne suis qu'en seconde. Je suis très sympa et
+      sociable.
+    </p>
+  </div>
+  <div class="card">
+    <img src="/ressource/niels.png" alt="John" style="width:100%">
+    <h1>Niels Bergery</h1>
+    <hr>
+    <h1>Citation</h1>
+    <p class="title">"Participer à ce concours et aller jusqu’au bout a été une des meilleures décisions que j’ai prise
+      cette année. J’ai appris tellement de choses, et pas uniquement sur le plan des connaissances comme on pourrait
+      l’imaginer." </p>
+    <p>Lycée Général Lapérouse</p>
+    <div style="margin: 24px 0;">
+      <a target="_blank" href="https://www.instagram.com/niels_gng/"><i class="fa fa-instagram"></i></a>
+
+    </div>
+    <p style="color: white;padding: 8px;font-size: 18px;background-color: #000;">Je m'appelle Niels, j'ai 16 ans et je
+      suis au Lycée Lapérouse, en Nouvelle Calédonie. Je suis passionné d'aéronautique depuis près de 10 ans. Je n'ai
+      pas du tout le profil pour ce genre de coucours, mais Axel et Louis non plus, ça ne nous a pas
+      empêcher d'y participer et de passer de super moments ensemble et avec les autres lauréats du concours. </p>
+  </div>
+  <div class="card">
+    <img src="/ressource/unnamed2.jpg" alt="John" style="width:100%">
+    <h1>Axel Archambeault</h1>
+    <hr>
+    <h1>Citation</h1>
+    <p class="title">"Penser qu'un rêve est une chose irréalisable, c'est tel un vieillard qui a renoncé à vivre"</p>
+    <p>Lycée Général Lapérouse</p>
+    <div style="margin: 24px 0;">
+      <a target="_blank" href="https://www.instagram.com/axel.aht.mtg/"><i class="fa fa-instagram"></i></a>
+
+    </div>
+    <p style="color: white;padding: 8px;font-size: 18px;background-color: #000;">Je m'appelle Axel, j'ai 16 ans,je suis
+      en seconde et je vis dans le plus beau pays du monde qui est la Nouvelle Calédonie. Mon rêve est de devenir
+      développeur web.</p>
+  </div>
+  <script>// Get the button
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }</script>
+</body>
+
+</html>
